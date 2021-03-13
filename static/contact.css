@@ -1,0 +1,40 @@
+#navbar{
+    position: relative;
+}
+h1{
+    text-align: center;
+
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(146, 195, 185);
+}
+.myinp{
+    width: 550px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius:30px;
+    border: 3px solid green;
+    outline:none;
+}
+
+h1{
+    background-color: rgb(146, 195, 185); ;
+}
+.btn:hover {
+    background-color: coral;
+}
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: #b39d95;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+}

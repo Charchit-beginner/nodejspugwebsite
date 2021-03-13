@@ -1,0 +1,31 @@
+extend base.pug
+block scripts
+    script(src='/static/index.js')
+block style
+    style
+        include ../static/style.css
+block content
+
+        section#introsection
+            div Welcome to charchit's dance academy
+            div.small Eat Sleep Dance Repeat
+        section#missionsection
+            h1 Our mission
+            div.card
+                h2 Dance Prefection
+            div.card
+                h2 Dance In Your own way
+            div.card
+                h2 Expert Teaching 
+
+        section#sponsorsection
+            h2 Our sponsors
+            div.spon
+                div.sponsors
+                    h3 Facebook
+                div.sponsors
+                    h3 twitter
+                div.sponsors
+                    h3 HP
+                div.sponsors
+                    h3 Instagram
